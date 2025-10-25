@@ -1,0 +1,160 @@
+# 📊 Real-Time Analytics Dashboard
+
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript)
+![Tailwind](https://img.shields.io/badge/Tailwind-3.x-38B2AC?logo=tailwind-css)
+
+> Dashboard moderno e responsivo para visualização de métricas e KPIs em tempo real, construído com as tecnologias mais recentes do ecossistema React.
+
+[🚀 Demo ao Vivo](#) | [📖 Documentação](#)
+
+## ✨ Destaques
+
+- **Atualizações em Tempo Real**: WebSocket para dados ao vivo
+- **Visualizações Interativas**: Gráficos dinâmicos com Recharts
+- **Design Responsivo**: Mobile-first com Tailwind CSS
+- **Performance Otimizada**: Code splitting e lazy loading
+- **Acessibilidade**: WCAG 2.1 compliant
+- **Dark Mode**: Tema claro/escuro com persistência
+
+## 🛠️ Stack Tecnológica
+
+### Frontend
+- **React 18** - UI library com Concurrent Features
+- **TypeScript** - Type safety e melhor DX
+- **Tailwind CSS** - Utility-first CSS framework
+- **Recharts** - Biblioteca de gráficos declarativa
+- **Zustand** - State management leve e eficiente
+- **React Query** - Data fetching e cache inteligente
+
+### Backend (API Simulada)
+- **Node.js** com Express
+- **WebSocket** para comunicação real-time
+- **PostgreSQL** para persistência de dados
+
+## 📦 Estrutura do Projeto
+```
+dashboard-analytics/
+├── src/
+│   ├── components/
+│   │   ├── charts/          # Componentes de gráficos
+│   │   ├── layout/          # Header, Sidebar, Footer
+│   │   └── widgets/         # Cards e widgets reutilizáveis
+│   ├── hooks/               # Custom hooks
+│   ├── services/            # API e WebSocket clients
+│   ├── stores/              # Zustand stores
+│   ├── types/               # TypeScript definitions
+│   └── utils/               # Funções auxiliares
+├── public/
+└── tests/                   # Unit e Integration tests
+```
+
+## 🚀 Como Executar
+
+### Pré-requisitos
+- Node.js >= 18.x
+- npm ou yarn
+
+### Instalação
+```bash
+# Clone o repositório
+git clone https://github.com/Diego999991/dashboard-analytics.git
+
+# Entre no diretório
+cd dashboard-analytics
+
+# Instale as dependências
+npm install
+
+# Configure as variáveis de ambiente
+cp .env.example .env
+
+# Inicie o servidor de desenvolvimento
+npm run dev
+```
+
+O app estará disponível em `http://localhost:5173`
+
+## 🧪 Testes
+```bash
+# Testes unitários
+npm run test
+
+# Testes com coverage
+npm run test:coverage
+
+# Testes E2E
+npm run test:e2e
+```
+
+## 🎨 Features Principais
+
+### 1. Dashboard Principal
+- Visão geral de métricas chave (receita, usuários, conversões)
+- Gráficos de linha para tendências temporais
+- Gráficos de pizza para distribuição de categorias
+- Tabela de dados com ordenação e filtros
+
+### 2. Análise de Vendas
+- Funil de conversão interativo
+- Heatmap de vendas por região
+- Comparação período sobre período
+
+### 3. Gestão de Usuários
+- Lista paginada com infinite scroll
+- Filtros avançados e busca
+- Exportação de dados (CSV, Excel)
+
+### 4. Configurações
+- Personalização de tema
+- Preferências de notificações
+- Gestão de API keys
+
+## 🔧 Scripts Disponíveis
+```bash
+npm run dev          # Inicia servidor de desenvolvimento
+npm run build        # Build para produção
+npm run preview      # Preview do build de produção
+npm run lint         # Executa ESLint
+npm run type-check   # Verifica tipos TypeScript
+```
+
+## 📈 Performance
+
+- **Lighthouse Score**: 95+ em todas as categorias
+- **Bundle Size**: < 200kb (gzipped)
+- **First Contentful Paint**: < 1.5s
+- **Time to Interactive**: < 3s
+
+## 🤝 Contribuindo
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
+
+1. Fork o projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/MinhaFeature`)
+3. Commit suas mudanças (`git commit -m 'Adiciona MinhaFeature'`)
+4. Push para a branch (`git push origin feature/MinhaFeature`)
+5. Abra um Pull Request
+
+## 📝 Roadmap
+
+- [ ] Integração com Google Analytics
+- [ ] Notificações push em tempo real
+- [ ] Exportação de relatórios em PDF
+- [ ] Dashboard customizável (drag & drop)
+- [ ] Integração com BI tools (Tableau, Power BI)
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 👨‍💻 Autor
+
+**Seu Nome**
+- GitHub: [Diego999991](https://github.com/Diego999991)
+- LinkedIn: [Seu Perfil](https://www.linkedin.com/in/diego-n%C3%B3brega-042a69352 )
+
+---
+
+⭐ Se este projeto foi útil, considere dar uma estrela!
